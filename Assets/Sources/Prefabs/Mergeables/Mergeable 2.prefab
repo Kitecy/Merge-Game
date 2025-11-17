@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3873134587279786812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5698174120818739249}
+  - component: {fileID: 528722256693087074}
+  - component: {fileID: 509628262873659623}
+  - component: {fileID: 5532618458849959437}
+  - component: {fileID: 5622153392572100062}
+  - component: {fileID: 184405813778761621}
+  m_Layer: 5
+  m_Name: Mergeable 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5698174120818739249
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873134587279786812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 83.3107, y: 100.6016}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &528722256693087074
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873134587279786812}
+  m_CullTransparentMesh: 1
+--- !u!114 &509628262873659623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873134587279786812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4510759682156403089, guid: aa690ae72e998f54b8c8b099d2165bab, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5532618458849959437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873134587279786812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aabc6a64f99bd44290a4f8b57a9acff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 0}
+  _graphic: {fileID: 509628262873659623}
+  _place: {fileID: 0}
+  <MoveDuration>k__BackingField: 0.2
+--- !u!114 &5622153392572100062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873134587279786812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff93e16a08fff04a9cf140979d5cc45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Pool>k__BackingField: {fileID: 0}
+  _nextMergeablePool: {fileID: 0}
+  _draggable: {fileID: 5532618458849959437}
+  <Level>k__BackingField: 2
+--- !u!114 &184405813778761621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873134587279786812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aabd9e383ea931e4b83cc43509667a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsUI: 1
+  _autoCall: 2
+  _playableAnimation:
+    _name: 
+    _order: 0
+    _duration: 1
+    _delay: 0
+    _isEternalLoop: 0
+    _loops: 1
+    _loopType: 0
+    _ease: 27
+    _type: 2
+    _startPosition: {x: 0, y: 0, z: 0}
+    _endPosition: {x: 1, y: 1, z: 1}
+    _startRotation: {x: 0, y: 0, z: 0}
+    _endRotation: {x: 0, y: 0, z: 0}
+    _startScale: {x: 0, y: 0, z: 0}
+    _endScale: {x: 1, y: 1, z: 1}
+    _startColor: {r: 1, g: 1, b: 1, a: 0}
+    _endColor: {r: 1, g: 1, b: 1, a: 1}
+    _renderer: {fileID: 0}
+    _graphic: {fileID: 0}
+    _startFade: 0
+    _endFade: 1
+    _startAnchoredPosition: {x: 0, y: 0}
+    _endAnchoredPosition: {x: 0, y: 0}

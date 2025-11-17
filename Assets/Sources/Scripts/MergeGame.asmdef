@@ -1,0 +1,16 @@
+{
+    "name": "MergeGame",
+    "rootNamespace": "MergeGame",
+    "references": [
+        "GUID:5528a151f94ed6241b3480d98b0a79f9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
